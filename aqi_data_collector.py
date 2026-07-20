@@ -29,6 +29,7 @@ CSV_FILE = "aqi_data.csv"
 # City -> State mapping (used later for "most polluted state" analysis)
 # lat/lon included for the India map visual in Power BI
 CITIES = [
+    # ---- Already-covered major cities (kept as-is) ----
     {"city": "Delhi",      "state": "Delhi",          "lat": 28.6139, "lon": 77.2090},
     {"city": "Mumbai",     "state": "Maharashtra",    "lat": 19.0760, "lon": 72.8777},
     {"city": "Bangalore",  "state": "Karnataka",      "lat": 12.9716, "lon": 77.5946},
@@ -44,6 +45,33 @@ CITIES = [
     {"city": "Bhopal",     "state": "Madhya Pradesh", "lat": 23.2599, "lon": 77.4126},
     {"city": "Kanpur",     "state": "Uttar Pradesh",  "lat": 26.4499, "lon": 80.3319},
     {"city": "Guwahati",   "state": "Assam",          "lat": 26.1445, "lon": 91.7362},
+
+    # ---- Remaining state capitals ----
+    {"city": "Amaravati",         "state": "Andhra Pradesh",     "lat": 16.5130, "lon": 80.5165},
+    {"city": "Itanagar",          "state": "Arunachal Pradesh",  "lat": 27.0844, "lon": 93.6053},
+    {"city": "Dispur",            "state": "Assam",              "lat": 26.1433, "lon": 91.7898},
+    {"city": "Raipur",            "state": "Chhattisgarh",       "lat": 21.2514, "lon": 81.6296},
+    {"city": "Panaji",            "state": "Goa",                "lat": 15.4909, "lon": 73.8278},
+    {"city": "Gandhinagar",       "state": "Gujarat",            "lat": 23.2156, "lon": 72.6369},
+    {"city": "Shimla",            "state": "Himachal Pradesh",   "lat": 31.1048, "lon": 77.1734},
+    {"city": "Ranchi",            "state": "Jharkhand",          "lat": 23.3441, "lon": 85.3096},
+    {"city": "Thiruvananthapuram","state": "Kerala",             "lat": 8.5241,  "lon": 76.9366},
+    {"city": "Imphal",            "state": "Manipur",            "lat": 24.8170, "lon": 93.9368},
+    {"city": "Shillong",          "state": "Meghalaya",          "lat": 25.5788, "lon": 91.8933},
+    {"city": "Aizawl",            "state": "Mizoram",            "lat": 23.7271, "lon": 92.7176},
+    {"city": "Kohima",            "state": "Nagaland",           "lat": 25.6751, "lon": 94.1086},
+    {"city": "Bhubaneswar",       "state": "Odisha",             "lat": 20.2961, "lon": 85.8245},
+    {"city": "Gangtok",           "state": "Sikkim",             "lat": 27.3389, "lon": 88.6065},
+    {"city": "Agartala",          "state": "Tripura",            "lat": 23.8315, "lon": 91.2868},
+    {"city": "Dehradun",          "state": "Uttarakhand",        "lat": 30.3165, "lon": 78.0322},
+
+    # ---- Remaining Union Territories ----
+    {"city": "Port Blair",  "state": "Andaman and Nicobar Islands",              "lat": 11.6234, "lon": 92.7265},
+    {"city": "Daman",       "state": "Dadra and Nagar Haveli and Daman and Diu", "lat": 20.3974, "lon": 72.8328},
+    {"city": "Srinagar",    "state": "Jammu and Kashmir",                        "lat": 34.0837, "lon": 74.7973},
+    {"city": "Leh",         "state": "Ladakh",                                   "lat": 34.1526, "lon": 77.5771},
+    {"city": "Kavaratti",   "state": "Lakshadweep",                              "lat": 10.5669, "lon": 72.6420},
+    {"city": "Puducherry",  "state": "Puducherry",                               "lat": 11.9416, "lon": 79.8083},
 ]
 
 
