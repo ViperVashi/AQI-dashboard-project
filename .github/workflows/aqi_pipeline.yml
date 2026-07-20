@@ -1,0 +1,35 @@
+name: AQI Data Collector
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # runs every 30 minutes
+  workflow_dispatch:          # lets you also run it manually from GitHub
+
+jobs:
+  collect-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run data collector
+        env:
+          WAQI_TOKEN: ${{ secrets.WAQI_TOKEN }}
+          OWM_API_KEY: ${{ secrets.OWM_API_KEY }}
+        run: python aqi_data_collector.py
+
+      - name: Commit updated CSV back to repo
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add aqi_data.csv
+          git commit -m "Update AQI data" || echo "No changes to commit"
+          git push
