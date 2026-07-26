@@ -201,13 +201,21 @@ def save_to_csv(rows):
         # Schema changed (e.g. new columns added) — rewrite the whole file
         # with the union of old + new columns so history is preserved.
         combined_fieldnames = old_fieldnames + [f for f in new_fieldnames if f not in old_fieldnames]
+
+        # Sanitize old rows: keep only known fields, drop any stray/extra
+        # columns (e.g. from malformed rows), fill missing ones with "".
+        clean_old_rows = [
+            {field: row.get(field, "") for field in combined_fieldnames}
+            for row in old_rows
+        ]
+
         with open(CSV_FILE, mode="w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=combined_fieldnames, restval="")
             writer.writeheader()
-            writer.writerows(old_rows)   # old rows, blank for new columns
-            writer.writerows(rows)       # new rows, full data
+            writer.writerows(clean_old_rows)  # old rows, blank for new columns
+            writer.writerows(rows)            # new rows, full data
         print(f"\nSchema changed — rewrote {CSV_FILE} with updated headers "
-              f"({len(old_rows)} old rows preserved + {len(rows)} new rows)")
+              f"({len(clean_old_rows)} old rows preserved + {len(rows)} new rows)")
 
 
 if __name__ == "__main__":
