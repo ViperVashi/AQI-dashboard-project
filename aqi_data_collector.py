@@ -15,7 +15,7 @@ import requests
 import csv
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 # ---------------- CONFIG ----------------
 # Keys are read from environment variables (set as GitHub Actions secrets).
@@ -142,7 +142,8 @@ def get_weather_data(city_name, lat, lon):
 
 def collect_all():
     rows = []
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    ist = timezone(timedelta(hours=5, minutes=30))
+    timestamp = datetime.now(ist).strftime("%Y-%m-%d %H:%M:%S")
 
     for c in CITIES:
         aqi_info = get_aqi_data(c["city"], c["lat"], c["lon"])
