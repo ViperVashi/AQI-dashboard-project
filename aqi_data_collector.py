@@ -119,7 +119,7 @@ def get_aqi_data(city_name, lat, lon, retries=2):
 
 
 def get_weather_data(city_name, lat, lon):
-    """Fetch temperature, humidity, wind speed from OpenWeatherMap."""
+    """Fetch temperature, humidity, wind speed, and weather condition from OpenWeatherMap."""
     url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={OWM_API_KEY}&units=metric"
     try:
         r = requests.get(url, timeout=10)
@@ -127,10 +127,13 @@ def get_weather_data(city_name, lat, lon):
         if data.get("cod") != 200:
             print(f"[OWM] Failed for {city_name}: {data}")
             return None
+        weather_list = data.get("weather", [{}])
         return {
             "temperature": data["main"]["temp"],
             "humidity": data["main"]["humidity"],
             "wind_speed": data["wind"]["speed"],
+            "weather_main": weather_list[0].get("main", ""),          # e.g. Clear, Clouds, Rain
+            "weather_description": weather_list[0].get("description", ""),  # e.g. "light rain"
         }
     except Exception as e:
         print(f"[OWM] Error for {city_name}: {e}")
