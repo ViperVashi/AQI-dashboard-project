@@ -173,16 +173,41 @@ def save_to_csv(rows):
         print("No data collected this run.")
         return
 
+    new_fieldnames = list(rows[0].keys())
     file_exists = os.path.isfile(CSV_FILE)
-    fieldnames = list(rows[0].keys())
 
-    with open(CSV_FILE, mode="a", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        if not file_exists:
+    if not file_exists:
+        # Fresh file — just write normally
+        with open(CSV_FILE, mode="w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=new_fieldnames)
             writer.writeheader()
-        writer.writerows(rows)
+            writer.writerows(rows)
+        print(f"\nCreated new file and saved {len(rows)} rows to {CSV_FILE}")
+        return
 
-    print(f"\nSaved {len(rows)} rows to {CSV_FILE}")
+    # File exists — check if the header matches the current schema
+    with open(CSV_FILE, mode="r", newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        old_fieldnames = reader.fieldnames or []
+        old_rows = list(reader)
+
+    if old_fieldnames == new_fieldnames:
+        # Schema unchanged — safe to just append
+        with open(CSV_FILE, mode="a", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=new_fieldnames)
+            writer.writerows(rows)
+        print(f"\nAppended {len(rows)} rows to {CSV_FILE}")
+    else:
+        # Schema changed (e.g. new columns added) — rewrite the whole file
+        # with the union of old + new columns so history is preserved.
+        combined_fieldnames = old_fieldnames + [f for f in new_fieldnames if f not in old_fieldnames]
+        with open(CSV_FILE, mode="w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=combined_fieldnames, restval="")
+            writer.writeheader()
+            writer.writerows(old_rows)   # old rows, blank for new columns
+            writer.writerows(rows)       # new rows, full data
+        print(f"\nSchema changed — rewrote {CSV_FILE} with updated headers "
+              f"({len(old_rows)} old rows preserved + {len(rows)} new rows)")
 
 
 if __name__ == "__main__":
