@@ -2,7 +2,7 @@
 
 **A real-time India Air Quality dashboard** built with Python, GitHub Actions, and Power BI — tracking live AQI, PM2.5/PM10, and weather correlation across 38 major Indian cities.
 
-![Dashboard Overview](screenshots/overview.png)
+![Dashboard Overview](Screenshots/overview.png)
 
 ## Overview
 
@@ -42,19 +42,19 @@ Power BI dashboard refreshes from CSV
 ## Dashboard Preview
 
 **Pollutant Breakdown (PM2.5 vs PM10)**
-![PM Comparison](screenshots/pm-comparison.png)
+![PM Comparison](Screenshots/pm-comparison.png)
 
 **Temperature vs AQI**
-![Temp vs AQI](screenshots/temp-vs-aqi.png)
+![Temp vs AQI](Screenshots/temp-vs-aqi.png)
 
 **Humidity vs AQI**
-![Humidity vs AQI](screenshots/humidity-vs-aqi.png)
+![Humidity vs AQI](Screenshots/humidity-vs-aqi.png)
 
 **Wind Speed vs AQI**
-![Wind Speed vs AQI](screenshots/wind-speed-vs-aqi.png)
+![Wind Speed vs AQI](Screenshots/wind-speed-vs-aqi.png)
 
 **Live Map & 24-Hour Trend**
-![Map and Trends](screenshots/map-and-trends.png)
+![Map and Trends](Screenshots/map-and-trends.png)
 
 ## Key Insights
 
