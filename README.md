@@ -2,7 +2,7 @@
 
 **A real-time India Air Quality dashboard** built with Python, GitHub Actions, and Power BI — tracking live AQI, PM2.5/PM10, and weather correlation across 38 major Indian cities.
 
-![Dashboard Overview](Screenshots/overview.png)
+![Dashboard Overview](WEATHER/Screenshots/overview.png)
 
 ## Overview
 
@@ -42,19 +42,19 @@ Power BI dashboard refreshes from CSV
 ## Dashboard Preview
 
 **Pollutant Breakdown (PM2.5 vs PM10)**
-![PM Comparison](Screenshots/pm-comparison.png)
+![PM Comparison](WEATHER/Screenshots/pm-comparison.png)
 
 **Temperature vs AQI**
-![Temp vs AQI](Screenshots/temp-vs-aqi.png)
+![Temp vs AQI](WEATHER/Screenshots/temp-vs-aqi.png)
 
 **Humidity vs AQI**
-![Humidity vs AQI](Screenshots/humidity-vs-aqi.png)
+![Humidity vs AQI](WEATHER/Screenshots/humidity-vs-aqi.png)
 
 **Wind Speed vs AQI**
-![Wind Speed vs AQI](Screenshots/wind-speed-vs-aqi.png)
+![Wind Speed vs AQI](WEATHER/Screenshots/wind-speed-vs-aqi.png)
 
 **Live Map & 24-Hour Trend**
-![Map and Trends](Screenshots/map-and-trends.png)
+![Map and Trends](WEATHER/Screenshots/map-and-trends.png)
 
 ## Key Insights
 
@@ -80,8 +80,8 @@ Live data is sourced directly from the WAQI (aqicn.org) and OpenWeatherMap APIs.
 
 | File | Description |
 |---|---|
-| `data_collector.py` | Python script that pulls live AQI + weather data and writes to CSV |
+| `aqi_data_collector.py` | Python script that pulls live AQI + weather data and writes to CSV |
 | `.github/workflows/` | GitHub Actions workflow for automated data collection every 30 min |
 | `aqi_data.csv` | Collected live data (city, AQI, PM2.5, PM10, temperature, humidity, wind speed, timestamp) |
-| `dashboard.pbix` | Power BI dashboard file |
-| `screenshots/` | Dashboard preview images |
+| `Weather api.pbip` | Power BI dashboard file (Power BI Project format) |
+| `WEATHER/Screenshots/` | Dashboard preview images |
