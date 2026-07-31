@@ -4181,3 +4181,36 @@ timestamp,city,state,lat,lon,aqi,pm25,pm10,co,no2,so2,o3,temperature,humidity,wi
 2026-07-31 05:40:11,Srinagar,Jammu and Kashmir,34.0837,74.7973,137,137,93,3.7,1,3.6,48.4,20.59,87,0.14,Rain,light rain
 2026-07-31 05:40:11,Leh,Ladakh,34.1526,77.5771,62,13,6,1.9,1,2.6,62.3,17.75,43,2.42,Rain,light rain
 2026-07-31 05:40:11,Puducherry,Puducherry,11.9416,79.8083,44,44,30,3.4,4.6,3.9,17.7,26.85,71,3.03,Clouds,overcast clouds
+2026-07-31 09:32:47,Delhi,Delhi,28.6139,77.209,109,109,3,5.5,8.5,5,8.6,31.56,60,4.71,Clouds,broken clouds
+2026-07-31 09:32:47,Mumbai,Maharashtra,19.076,72.8777,158,158,,,,,,27.35,88,9.62,Rain,heavy intensity rain
+2026-07-31 09:32:47,Bangalore,Karnataka,12.9716,77.5946,53,53,27,2.9,11.2,4.1,5,24.12,77,2.68,Clouds,overcast clouds
+2026-07-31 09:32:47,Kolkata,West Bengal,22.5726,88.3639,172,172,,,,,,31.24,67,4.88,Clouds,overcast clouds
+2026-07-31 09:32:47,Chennai,Tamil Nadu,13.0827,80.2707,46,46,,,,,,33.6,58,3.13,Clouds,scattered clouds
+2026-07-31 09:32:47,Hyderabad,Telangana,17.385,78.4867,93,93,,,,,,24.7,82,8.82,Clouds,overcast clouds
+2026-07-31 09:32:47,Pune,Maharashtra,18.5204,73.8567,232,232,138,51,198,,61,23.52,98,5.23,Rain,moderate rain
+2026-07-31 09:32:47,Lucknow,Uttar Pradesh,26.8467,80.9462,128,128,91,10.8,3,3.4,28.4,31.19,65,7.9,Clouds,overcast clouds
+2026-07-31 09:32:47,Patna,Bihar,25.5941,85.1376,21,107,,1,0.5,0.6,20.9,32.02,61,6.83,Rain,light rain
+2026-07-31 09:32:47,Ahmedabad,Gujarat,23.0225,72.5714,108,108,68,0.2,7.3,48.2,11.2,30.58,73,5.93,Rain,light rain
+2026-07-31 09:32:47,Jaipur,Rajasthan,26.9124,75.7873,129,129,78,18.8,9.6,10.1,11.3,31.13,57,6.26,Clouds,scattered clouds
+2026-07-31 09:32:47,Chandigarh,Chandigarh,30.7333,76.7794,53,13,6,2.8,5.5,2.6,52.6,29.49,68,5.46,Clouds,overcast clouds
+2026-07-31 09:32:47,Bhopal,Madhya Pradesh,23.2599,77.4126,50,50,37,5,5.3,6.1,22,26.98,80,6.45,Rain,light rain
+2026-07-31 09:32:47,Kanpur,Uttar Pradesh,26.4499,80.3319,150,150,86,6.3,9.9,0.4,5.4,31.59,63,7.63,Clouds,overcast clouds
+2026-07-31 09:32:47,Guwahati,Assam,26.1445,91.7362,33,13,6,2.8,3.7,3.1,33.3,27.45,87,1.98,Rain,moderate rain
+2026-07-31 09:32:47,Itanagar,Arunachal Pradesh,27.0844,93.6053,35,13,6,1.9,4.2,4.1,34.6,27.44,90,0.15,Clouds,overcast clouds
+2026-07-31 09:32:47,Dispur,Assam,26.1433,91.7898,33,13,6,2.8,3.7,3.1,33.3,28.25,89,1.75,Rain,moderate rain
+2026-07-31 09:32:47,Raipur,Chhattisgarh,21.2514,81.6296,113,113,90,3,3.4,0.5,16.8,26.35,81,6.1,Clouds,overcast clouds
+2026-07-31 09:32:47,Gandhinagar,Gujarat,23.2156,72.6369,76,60,76,3.2,3.4,0.5,0.9,30.25,77,5.63,Rain,light rain
+2026-07-31 09:32:47,Shimla,Himachal Pradesh,31.1048,77.1734,53,13,6,2.8,5.5,2.6,52.6,19.33,85,1.2,Rain,light rain
+2026-07-31 09:32:47,Thiruvananthapuram,Kerala,8.5241,76.9366,66,66,,,,,,28.41,76,6.33,Rain,light rain
+2026-07-31 09:32:47,Imphal,Manipur,24.817,93.9368,53,53,16,5.5,3.7,4.6,11,24.54,86,1.45,Rain,light rain
+2026-07-31 09:32:47,Shillong,Meghalaya,25.5788,91.8933,33,13,6,2.8,3.7,3.1,33.3,22.31,86,0.46,Rain,light rain
+2026-07-31 09:32:47,Aizawl,Mizoram,23.7271,92.7176,17,13,17,0.6,0.5,5.8,2.3,25.85,65,0.27,Clouds,overcast clouds
+2026-07-31 09:32:47,Kohima,Nagaland,25.6751,94.1086,53,53,16,5.5,3.7,4.6,11,21.8,94,1.1,Rain,moderate rain
+2026-07-31 09:32:47,Gangtok,Sikkim,27.3389,88.6065,69,69,48,0.7,2.5,0.4,4.3,20.72,100,0.87,Rain,moderate rain
+2026-07-31 09:32:47,Agartala,Tripura,23.8315,91.2868,114,114,68,3.5,6.3,2.9,5.8,29.7,74,2.39,Clouds,overcast clouds
+2026-07-31 09:32:47,Dehradun,Uttarakhand,30.3165,78.0322,53,13,6,2.8,5.5,2.6,52.6,23.82,92,0.89,Rain,light rain
+2026-07-31 09:32:47,Port Blair,Andaman and Nicobar Islands,11.6234,92.7265,26,26,,,4.7,0.6,,28.25,81,7.52,Rain,light rain
+2026-07-31 09:32:47,Daman,Dadra and Nagar Haveli and Daman and Diu,20.3974,72.8328,89,89,64,,5.6,6.7,2.9,26.49,90,8.71,Rain,heavy intensity rain
+2026-07-31 09:32:47,Srinagar,Jammu and Kashmir,34.0837,74.7973,181,155,181,3.7,6.4,5.1,37.4,21.14,82,0.89,Rain,light rain
+2026-07-31 09:32:47,Leh,Ladakh,34.1526,77.5771,53,13,6,2.8,5.5,2.6,52.6,19.1,36,1.55,Clouds,overcast clouds
+2026-07-31 09:32:47,Puducherry,Puducherry,11.9416,79.8083,44,44,30,3.4,4.6,3.9,17.7,32.96,56,3,Clouds,broken clouds
