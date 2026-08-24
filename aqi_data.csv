@@ -20590,3 +20590,36 @@ timestamp,city,state,lat,lon,aqi,pm25,pm10,co,no2,so2,o3,temperature,humidity,wi
 2026-08-25 00:24:08,Srinagar,Jammu and Kashmir,34.0837,74.7973,80,80,57,5.5,12.8,1.6,26.9,20.03,81,0.7,Clear,clear sky
 2026-08-25 00:24:08,Leh,Ladakh,34.1526,77.5771,46,13,10,1.9,1.9,3.6,46.3,17.59,36,3.14,Clear,clear sky
 2026-08-25 00:24:08,Puducherry,Puducherry,11.9416,79.8083,44,44,30,3.4,4.6,3.9,17.7,27.4,81,6.21,Rain,light rain
+2026-08-25 01:05:06,Delhi,Delhi,28.6139,77.209,72,72,58,5.7,19.6,7.4,8.4,27.99,94,1.54,Clouds,overcast clouds
+2026-08-25 01:05:06,Mumbai,Maharashtra,19.076,72.8777,158,158,,,,,,28.03,83,5.14,Rain,light rain
+2026-08-25 01:05:06,Bangalore,Karnataka,12.9716,77.5946,53,53,27,2.9,11.2,4.1,5,21.21,90,4.12,Clouds,overcast clouds
+2026-08-25 01:05:06,Kolkata,West Bengal,22.5726,88.3639,172,172,,,,,,27.96,94,3.09,Rain,light rain
+2026-08-25 01:05:06,Chennai,Tamil Nadu,13.0827,80.2707,46,46,,,,,,26.03,94,2.06,Rain,moderate rain
+2026-08-25 01:05:06,Hyderabad,Telangana,17.385,78.4867,93,93,,,,,,25.52,81,22.392,Rain,light rain
+2026-08-25 01:05:06,Pune,Maharashtra,18.5204,73.8567,232,232,138,51,198,,61,23.38,77,3.09,Clouds,broken clouds
+2026-08-25 01:05:06,Lucknow,Uttar Pradesh,26.8467,80.9462,128,128,91,10.8,3,3.4,28.4,28.05,100,2.06,Clouds,broken clouds
+2026-08-25 01:05:06,Patna,Bihar,25.5941,85.1376,21,107,,1,0.5,0.6,20.9,27.98,89,5.14,Rain,light rain
+2026-08-25 01:05:06,Ahmedabad,Gujarat,23.0225,72.5714,108,108,68,0.2,7.3,48.2,11.2,28.02,69,2.06,Clouds,overcast clouds
+2026-08-25 01:05:06,Jaipur,Rajasthan,26.9124,75.7873,129,129,78,18.8,9.6,10.1,11.3,25.68,89,4.12,Clouds,overcast clouds
+2026-08-25 01:05:06,Chandigarh,Chandigarh,30.7333,76.7794,46,13,8,1.9,1.4,3.6,46.3,26.22,78,2.15,Clouds,few clouds
+2026-08-25 01:05:06,Bhopal,Madhya Pradesh,23.2599,77.4126,50,50,37,5,5.3,6.1,22,23.18,94,3.09,Rain,moderate rain
+2026-08-25 01:05:06,Kanpur,Uttar Pradesh,26.4499,80.3319,150,150,86,6.3,9.9,0.4,5.4,28.67,79,1.18,Clouds,broken clouds
+2026-08-25 01:05:06,Guwahati,Assam,26.1445,91.7362,16,13,16,4.6,13.8,3.1,12.6,28,100,0,Rain,light rain
+2026-08-25 01:05:06,Itanagar,Arunachal Pradesh,27.0844,93.6053,25,25,7,3.7,5.1,3.1,18.7,24.74,97,1.08,Clouds,overcast clouds
+2026-08-25 01:05:06,Dispur,Assam,26.1433,91.7898,16,13,16,4.6,13.8,3.1,12.6,27.97,95,0.74,Rain,moderate rain
+2026-08-25 01:05:06,Raipur,Chhattisgarh,21.2514,81.6296,113,113,90,3,3.4,0.5,16.8,24.23,94,5.27,Rain,light rain
+2026-08-25 01:05:06,Gandhinagar,Gujarat,23.2156,72.6369,76,60,76,3.2,3.4,0.5,0.9,27.85,69,2.06,Clouds,overcast clouds
+2026-08-25 01:05:06,Shimla,Himachal Pradesh,31.1048,77.1734,46,13,8,1.9,1.4,3.6,46.3,16.14,90,2,Clouds,few clouds
+2026-08-25 01:05:06,Thiruvananthapuram,Kerala,8.5241,76.9366,53,53,,,,,,24.85,94,6.17,Rain,light rain
+2026-08-25 01:05:06,Imphal,Manipur,24.817,93.9368,13,13,6,6.4,1.9,4.6,7,21.63,98,0.54,Rain,light rain
+2026-08-25 01:05:06,Shillong,Meghalaya,25.5788,91.8933,16,13,16,4.6,13.8,3.1,12.6,19.11,97,2.33,Clouds,overcast clouds
+2026-08-25 01:05:06,Aizawl,Mizoram,23.7271,92.7176,17,13,17,0.6,0.5,5.8,2.3,19.1,99,1.21,Rain,light rain
+2026-08-25 01:05:06,Kohima,Nagaland,25.6751,94.1086,13,13,6,6.4,1.9,4.6,7,18.93,92,1.01,Clouds,overcast clouds
+2026-08-25 01:05:06,Gangtok,Sikkim,27.3389,88.6065,69,69,48,0.7,2.5,0.4,4.3,21.09,99,0.53,Rain,heavy intensity rain
+2026-08-25 01:05:06,Agartala,Tripura,23.8315,91.2868,114,114,68,3.5,6.3,2.9,5.8,25.73,93,3.62,Clouds,overcast clouds
+2026-08-25 01:05:06,Dehradun,Uttarakhand,30.3165,78.0322,113,113,90,3,3.4,0.5,16.8,24.41,80,1.82,Clouds,overcast clouds
+2026-08-25 01:05:06,Port Blair,Andaman and Nicobar Islands,11.6234,92.7265,62,62,,,1.8,,,27.83,82,9.46,Clouds,overcast clouds
+2026-08-25 01:05:06,Daman,Dadra and Nagar Haveli and Daman and Diu,20.3974,72.8328,89,89,64,,5.6,6.7,2.9,27.11,82,6.23,Rain,light rain
+2026-08-25 01:05:06,Srinagar,Jammu and Kashmir,34.0837,74.7973,87,87,60,7.3,15.1,1.6,18.3,19.47,83,0.76,Clear,clear sky
+2026-08-25 01:05:06,Leh,Ladakh,34.1526,77.5771,46,13,8,1.9,1.4,3.6,46.3,16.89,40,2.85,Clear,clear sky
+2026-08-25 01:05:06,Puducherry,Puducherry,11.9416,79.8083,44,44,30,3.4,4.6,3.9,17.7,27.4,82,5.92,Rain,light rain
