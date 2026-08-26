@@ -21898,3 +21898,38 @@ timestamp,city,state,lat,lon,aqi,pm25,pm10,co,no2,so2,o3,temperature,humidity,wi
 2026-08-26 15:37:42,Leh,Ladakh,34.1526,77.5771,44,13,6,1,1.4,3.6,43.9,22.21,18,2.14,Clear,clear sky
 2026-08-26 15:37:42,Kavaratti,Lakshadweep,10.5669,72.642,137,137,71,1,1.8,3.5,3.2,27.96,78,6.7,Rain,light rain
 2026-08-26 15:37:42,Puducherry,Puducherry,11.9416,79.8083,44,44,30,3.4,4.6,3.9,17.7,36.21,46,3.6,Clouds,overcast clouds
+2026-08-26 16:33:32,Delhi,Delhi,28.6139,77.209,168,168,87,7.5,8.7,2.7,10.1,32.99,70,5.14,Clouds,broken clouds
+2026-08-26 16:33:32,Mumbai,Maharashtra,19.076,72.8777,128,128,65,1.6,1.9,3.3,4,30,70,6.17,Clouds,broken clouds
+2026-08-26 16:33:32,Bangalore,Karnataka,12.9716,77.5946,160,160,77,6.6,5.4,2.3,9.9,27.8,66,4.63,Clouds,broken clouds
+2026-08-26 16:33:32,Kolkata,West Bengal,22.5726,88.3639,172,172,,,,,,28.96,84,2.06,Rain,light rain
+2026-08-26 16:33:32,Chennai,Tamil Nadu,13.0827,80.2707,46,46,,,,,,32.93,69,1.79,Clouds,overcast clouds
+2026-08-26 16:33:32,Hyderabad,Telangana,17.385,78.4867,93,93,,,,,,29.51,70,14.16,Clouds,overcast clouds
+2026-08-26 16:33:32,Pune,Maharashtra,18.5204,73.8567,128,128,65,1.6,1.9,3.3,4,25.99,54,7.22,Clouds,scattered clouds
+2026-08-26 16:33:32,Lucknow,Uttar Pradesh,26.8467,80.9462,128,128,91,10.8,3,3.4,28.4,29.05,94,2.06,Rain,moderate rain
+2026-08-26 16:33:32,Patna,Bihar,25.5941,85.1376,21,107,,1,0.5,0.6,20.9,27.98,89,5.14,Clouds,overcast clouds
+2026-08-26 16:33:32,Ahmedabad,Gujarat,23.0225,72.5714,128,128,65,1.6,1.9,3.3,4,31.02,55,5.14,Clouds,overcast clouds
+2026-08-26 16:33:32,Jaipur,Rajasthan,26.9124,75.7873,128,128,65,1.6,1.9,3.3,4,28.68,70,3.09,Clouds,overcast clouds
+2026-08-26 16:33:32,Chandigarh,Chandigarh,30.7333,76.7794,124,124,80,10.9,8.4,5.3,9.5,33.79,62,5.14,Clear,clear sky
+2026-08-26 16:33:32,Bhopal,Madhya Pradesh,23.2599,77.4126,160,160,77,6.6,5.4,2.3,9.9,26.18,89,5.66,Rain,moderate rain
+2026-08-26 16:33:32,Kanpur,Uttar Pradesh,26.4499,80.3319,150,150,86,6.3,9.9,0.4,5.4,30.64,79,3.36,Rain,moderate rain
+2026-08-26 16:33:32,Guwahati,Assam,26.1445,91.7362,38,13,10,2.8,3.2,3.1,38.2,33,70,2.57,Clouds,scattered clouds
+2026-08-26 16:33:32,Itanagar,Arunachal Pradesh,27.0844,93.6053,39,25,9,1.9,3.2,3.1,38.6,29.71,84,2.48,Rain,light rain
+2026-08-26 16:33:32,Dispur,Assam,26.1433,91.7898,38,13,10,2.8,3.2,3.1,38.2,32.97,72,2.38,Clouds,scattered clouds
+2026-08-26 16:33:32,Raipur,Chhattisgarh,21.2514,81.6296,113,113,90,3,3.4,0.5,16.8,27.07,78,4.63,Clouds,overcast clouds
+2026-08-26 16:33:32,Panaji,Goa,15.4909,73.8278,128,128,65,1.6,1.9,3.3,4,29.82,74,5.66,Rain,light rain
+2026-08-26 16:33:32,Gandhinagar,Gujarat,23.2156,72.6369,128,128,65,1.6,1.9,3.3,4,30.85,55,5.14,Clouds,broken clouds
+2026-08-26 16:33:32,Shimla,Himachal Pradesh,31.1048,77.1734,124,124,80,10.9,8.4,5.3,9.5,22.29,70,2.32,Clouds,broken clouds
+2026-08-26 16:33:32,Thiruvananthapuram,Kerala,8.5241,76.9366,30,30,,,,,,26.85,89,6.17,Rain,light rain
+2026-08-26 16:33:32,Imphal,Manipur,24.817,93.9368,24,13,6,6.4,2.8,5.1,23.6,26.96,100,2.57,Clouds,broken clouds
+2026-08-26 16:33:32,Shillong,Meghalaya,25.5788,91.8933,38,13,10,2.8,3.2,3.1,38.2,24.37,69,0,Rain,light rain
+2026-08-26 16:33:32,Aizawl,Mizoram,23.7271,92.7176,17,13,17,0.6,0.5,5.8,2.3,25.07,84,1.54,Rain,light rain
+2026-08-26 16:33:32,Kohima,Nagaland,25.6751,94.1086,24,13,6,6.4,2.8,5.1,23.6,23.25,78,0.88,Rain,moderate rain
+2026-08-26 16:33:32,Gangtok,Sikkim,27.3389,88.6065,69,69,48,0.7,2.5,0.4,4.3,24.18,85,1.57,Clouds,overcast clouds
+2026-08-26 16:33:32,Agartala,Tripura,23.8315,91.2868,114,114,68,3.5,6.3,2.9,5.8,34.01,66,3.6,Rain,light rain
+2026-08-26 16:33:32,Dehradun,Uttarakhand,30.3165,78.0322,124,124,80,10.9,8.4,5.3,9.5,31.32,78,1.41,Rain,light rain
+2026-08-26 16:33:32,Port Blair,Andaman and Nicobar Islands,11.6234,92.7265,35,35,,,1.8,,,28.88,84,4.63,Rain,light rain
+2026-08-26 16:33:32,Daman,Dadra and Nagar Haveli and Daman and Diu,20.3974,72.8328,128,128,65,1.6,1.9,3.3,4,27.91,80,5.76,Clouds,overcast clouds
+2026-08-26 16:33:32,Srinagar,Jammu and Kashmir,34.0837,74.7973,51,42,41,2.8,1,2.6,50.6,29.19,37,2.44,Clear,clear sky
+2026-08-26 16:33:32,Leh,Ladakh,34.1526,77.5771,44,13,6,1,1.4,3.6,43.5,22.5,16,2.66,Clear,clear sky
+2026-08-26 16:33:32,Kavaratti,Lakshadweep,10.5669,72.642,128,128,65,1.6,1.9,3.3,4,28.09,78,6.29,Clouds,overcast clouds
+2026-08-26 16:33:32,Puducherry,Puducherry,11.9416,79.8083,44,44,30,3.4,4.6,3.9,17.7,35.21,52,5.14,Clouds,overcast clouds
