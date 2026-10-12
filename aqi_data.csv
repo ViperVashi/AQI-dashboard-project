@@ -30845,3 +30845,37 @@ timestamp,city,state,lat,lon,aqi,pm25,pm10,co,no2,so2,o3,temperature,humidity,wi
 2026-10-12 03:51:52,Leh,Ladakh,34.1526,77.5771,96,89,96,5,2.3,6,15.5,6.47,38,1.74,Clouds,few clouds
 2026-10-12 03:51:52,Kavaratti,Lakshadweep,10.5669,72.642,74,74,60,5.5,2.7,2.6,4.8,28.31,76,1.53,Rain,light rain
 2026-10-12 03:51:52,Puducherry,Puducherry,11.9416,79.8083,44,44,30,3.4,4.6,3.9,17.7,25.74,83,3.35,Clouds,overcast clouds
+2026-10-12 07:09:19,Delhi,Delhi,28.6139,77.209,3,25,3,38.4,9.4,1.1,6.7,19.99,100,5.66,Rain,light rain
+2026-10-12 07:09:19,Mumbai,Maharashtra,19.076,72.8777,63,63,54,3.9,2.5,3,6.5,30,51,2.06,Clear,clear sky
+2026-10-12 07:09:19,Bangalore,Karnataka,12.9716,77.5946,53,53,18,1,4.4,3.8,12.4,20.79,89,3.09,Clear,clear sky
+2026-10-12 07:09:19,Kolkata,West Bengal,22.5726,88.3639,172,172,,,,,,25.96,94,3.09,Clear,clear sky
+2026-10-12 07:09:19,Chennai,Tamil Nadu,13.0827,80.2707,46,46,,,,,,29.55,79,1.54,Clouds,few clouds
+2026-10-12 07:09:19,Hyderabad,Telangana,17.385,78.4867,93,93,,,,,,19.95,88,1.03,Clear,clear sky
+2026-10-12 07:09:19,Pune,Maharashtra,18.5204,73.8567,63,63,54,3.9,2.5,3,6.5,26.3,17,1.93,Clear,clear sky
+2026-10-12 07:09:19,Lucknow,Uttar Pradesh,26.8467,80.9462,128,128,91,10.8,3,3.4,28.4,24.05,94,0,Clear,clear sky
+2026-10-12 07:09:19,Patna,Bihar,25.5941,85.1376,21,107,,1,0.5,0.6,20.9,25.98,89,0,Clear,clear sky
+2026-10-12 07:09:19,Ahmedabad,Gujarat,23.0225,72.5714,63,63,54,3.9,2.5,3,6.5,23.02,78,0.51,Clear,clear sky
+2026-10-12 07:09:19,Jaipur,Rajasthan,26.9124,75.7873,63,63,54,3.9,2.5,3,6.5,22.68,94,4.12,Clear,clear sky
+2026-10-12 07:09:19,Chandigarh,Chandigarh,30.7333,76.7794,55,55,20,3.7,4.8,5.9,14.9,21.76,79,1.13,Clear,clear sky
+2026-10-12 07:09:19,Bhopal,Madhya Pradesh,23.2599,77.4126,53,53,18,1,4.4,3.8,12.4,21.18,83,2.57,Clear,clear sky
+2026-10-12 07:09:19,Kanpur,Uttar Pradesh,26.4499,80.3319,150,150,86,6.3,9.9,0.4,5.4,24.65,76,1.11,Clear,clear sky
+2026-10-12 07:09:19,Guwahati,Assam,26.1445,91.7362,394,330,394,3.9,0.1,11.6,8.4,25,88,0,Clear,clear sky
+2026-10-12 07:09:19,Itanagar,Arunachal Pradesh,27.0844,93.6053,63,63,31,1.8,2.8,4.3,2.6,25.72,59,0.74,Clear,clear sky
+2026-10-12 07:09:19,Raipur,Chhattisgarh,21.2514,81.6296,113,113,90,3,3.4,0.5,16.8,23.07,94,0.51,Clear,clear sky
+2026-10-12 07:09:19,Panaji,Goa,15.4909,73.8278,63,63,54,3.9,2.5,3,6.5,28.81,61,3.33,Clear,clear sky
+2026-10-12 07:09:19,Gandhinagar,Gujarat,23.2156,72.6369,63,63,54,3.9,2.5,3,6.5,22.85,78,0.51,Clear,clear sky
+2026-10-12 07:09:19,Shimla,Himachal Pradesh,31.1048,77.1734,55,55,20,3.7,4.8,5.9,14.9,11.74,88,0,Clear,clear sky
+2026-10-12 07:09:19,Thiruvananthapuram,Kerala,8.5241,76.9366,12,12,,,,,,26.85,94,0,Clouds,overcast clouds
+2026-10-12 07:09:19,Imphal,Manipur,24.817,93.9368,-,,,,,,,21.96,100,2.06,Clear,clear sky
+2026-10-12 07:09:19,Shillong,Meghalaya,25.5788,91.8933,65,65,26,3.1,7.4,4.5,2.3,19.95,64,0.85,Clear,clear sky
+2026-10-12 07:09:19,Aizawl,Mizoram,23.7271,92.7176,17,13,17,0.6,0.5,5.8,2.3,22.01,64,0.72,Clear,clear sky
+2026-10-12 07:09:19,Kohima,Nagaland,25.6751,94.1086,57,57,22,0.7,1.3,19.7,0.9,21.6,58,0.51,Clear,clear sky
+2026-10-12 07:09:19,Gangtok,Sikkim,27.3389,88.6065,69,69,48,0.7,2.5,0.4,4.3,21.12,60,0.1,Clear,clear sky
+2026-10-12 07:09:19,Agartala,Tripura,23.8315,91.2868,114,114,68,3.5,6.3,2.9,5.8,26.01,89,0,Clear,clear sky
+2026-10-12 07:09:19,Dehradun,Uttarakhand,30.3165,78.0322,53,53,35,3.7,8.1,1.3,4.5,17.32,86,2.07,Clear,clear sky
+2026-10-12 07:09:19,Port Blair,Andaman and Nicobar Islands,11.6234,92.7265,42,42,,,,,,28.62,79,1.38,Clouds,overcast clouds
+2026-10-12 07:09:19,Daman,Dadra and Nagar Haveli and Daman and Diu,20.3974,72.8328,63,63,54,3.9,2.5,3,6.5,26.85,59,2.89,Clear,clear sky
+2026-10-12 07:09:19,Srinagar,Jammu and Kashmir,34.0837,74.7973,55,55,20,3.7,4.8,5.9,14.9,12.61,80,0.33,Clouds,overcast clouds
+2026-10-12 07:09:19,Leh,Ladakh,34.1526,77.5771,55,55,20,3.7,4.8,5.9,14.9,6.31,47,0.87,Clear,clear sky
+2026-10-12 07:09:19,Kavaratti,Lakshadweep,10.5669,72.642,63,63,54,3.9,2.5,3,6.5,28.83,73,2.09,Clouds,broken clouds
+2026-10-12 07:09:19,Puducherry,Puducherry,11.9416,79.8083,44,44,30,3.4,4.6,3.9,17.7,26.85,80,4.38,Clouds,few clouds
