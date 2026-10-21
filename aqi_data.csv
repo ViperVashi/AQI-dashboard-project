@@ -32507,3 +32507,37 @@ timestamp,city,state,lat,lon,aqi,pm25,pm10,co,no2,so2,o3,temperature,humidity,wi
 2026-10-21 05:14:57,Leh,Ladakh,34.1526,77.5771,187,187,133,8.4,8.1,2,7.3,0.94,43,1.61,Clouds,overcast clouds
 2026-10-21 05:14:57,Kavaratti,Lakshadweep,10.5669,72.642,259,252,259,31.2,34.7,8.6,1.8,29.06,75,4.07,Clouds,overcast clouds
 2026-10-21 05:14:57,Puducherry,Puducherry,11.9416,79.8083,44,44,30,3.4,4.6,3.9,17.7,25.74,92,6.98,Rain,heavy intensity rain
+2026-10-21 09:52:26,Delhi,Delhi,28.6139,77.209,227,227,142,26.5,37,5.4,1.6,23.99,78,2.06,Clear,clear sky
+2026-10-21 09:52:26,Mumbai,Maharashtra,19.076,72.8777,192,192,138,8.2,5.7,0.7,3.4,33,49,3.6,Clouds,few clouds
+2026-10-21 09:52:26,Bangalore,Karnataka,12.9716,77.5946,227,227,170,16.3,41.3,3.4,8,25.21,73,4.12,Clouds,overcast clouds
+2026-10-21 09:52:26,Kolkata,West Bengal,22.5726,88.3639,172,172,,,,,,28.96,65,3.09,Clouds,few clouds
+2026-10-21 09:52:26,Chennai,Tamil Nadu,13.0827,80.2707,46,46,,,,,,25.43,98,2.06,Rain,light rain
+2026-10-21 09:52:26,Hyderabad,Telangana,17.385,78.4867,93,93,,,,,,29.23,58,3.09,Clouds,scattered clouds
+2026-10-21 09:52:26,Pune,Maharashtra,18.5204,73.8567,192,192,138,8.2,5.7,0.7,3.4,28.52,19,3.49,Clouds,few clouds
+2026-10-21 09:52:26,Lucknow,Uttar Pradesh,26.8467,80.9462,128,128,91,10.8,3,3.4,28.4,27.05,65,1.03,Clear,clear sky
+2026-10-21 09:52:26,Patna,Bihar,25.5941,85.1376,21,107,,1,0.5,0.6,20.9,28.98,54,1.54,Clear,clear sky
+2026-10-21 09:52:26,Ahmedabad,Gujarat,23.0225,72.5714,192,192,138,8.2,5.7,0.7,3.4,29.02,51,4.12,Clear,clear sky
+2026-10-21 09:52:26,Jaipur,Rajasthan,26.9124,75.7873,192,192,138,8.2,5.7,0.7,3.4,26.68,39,3.09,Clear,clear sky
+2026-10-21 09:52:26,Chandigarh,Chandigarh,30.7333,76.7794,258,258,182,7.5,5.7,1.4,5.8,23.79,57,1.03,Clear,clear sky
+2026-10-21 09:52:26,Bhopal,Madhya Pradesh,23.2599,77.4126,227,227,170,16.3,41.3,3.4,8,26.18,69,1.54,Clear,clear sky
+2026-10-21 09:52:26,Kanpur,Uttar Pradesh,26.4499,80.3319,150,150,86,6.3,9.9,0.4,5.4,25.78,52,0.76,Clear,clear sky
+2026-10-21 09:52:26,Guwahati,Assam,26.1445,91.7362,394,330,394,3.9,0.1,11.6,8.4,29.01,70,3.09,Clear,clear sky
+2026-10-21 09:52:26,Itanagar,Arunachal Pradesh,27.0844,93.6053,63,63,31,1.8,2.8,4.3,2.6,27.92,49,1.78,Clear,clear sky
+2026-10-21 09:52:26,Raipur,Chhattisgarh,21.2514,81.6296,113,113,90,3,3.4,0.5,16.8,27.07,61,2.57,Clouds,few clouds
+2026-10-21 09:52:26,Panaji,Goa,15.4909,73.8278,192,192,138,8.2,5.7,0.7,3.4,29.98,57,3.01,Clouds,broken clouds
+2026-10-21 09:52:26,Gandhinagar,Gujarat,23.2156,72.6369,192,192,138,8.2,5.7,0.7,3.4,28.85,54,3.09,Clear,clear sky
+2026-10-21 09:52:26,Shimla,Himachal Pradesh,31.1048,77.1734,258,258,182,7.5,5.7,1.4,5.8,17.74,43,2.06,Clear,clear sky
+2026-10-21 09:52:26,Thiruvananthapuram,Kerala,8.5241,76.9366,11,11,,,,,,26.85,89,1.54,Clouds,overcast clouds
+2026-10-21 09:52:26,Imphal,Manipur,24.817,93.9368,-,,,,,,,25.96,69,1.03,Clear,clear sky
+2026-10-21 09:52:26,Shillong,Meghalaya,25.5788,91.8933,65,65,26,3.1,7.4,4.5,2.3,22.37,61,0,Clear,clear sky
+2026-10-21 09:52:26,Aizawl,Mizoram,23.7271,92.7176,17,13,17,0.6,0.5,5.8,2.3,25.07,70,1.03,Clear,clear sky
+2026-10-21 09:52:26,Kohima,Nagaland,25.6751,94.1086,57,57,22,0.7,1.3,19.7,0.9,22.36,48,1.22,Clear,clear sky
+2026-10-21 09:52:26,Gangtok,Sikkim,27.3389,88.6065,69,69,48,0.7,2.5,0.4,4.3,23.42,46,2.13,Clear,clear sky
+2026-10-21 09:52:26,Agartala,Tripura,23.8315,91.2868,114,114,68,3.5,6.3,2.9,5.8,30.01,70,3.09,Clear,clear sky
+2026-10-21 09:52:26,Dehradun,Uttarakhand,30.3165,78.0322,253,253,195,9.3,16,1.1,3.1,21.32,75,0.65,Clear,clear sky
+2026-10-21 09:52:26,Port Blair,Andaman and Nicobar Islands,11.6234,92.7265,57,57,,,,,,26.88,89,2.06,Clouds,overcast clouds
+2026-10-21 09:52:26,Daman,Dadra and Nagar Haveli and Daman and Diu,20.3974,72.8328,192,192,138,8.2,5.7,0.7,3.4,29.95,54,3.39,Clear,clear sky
+2026-10-21 09:52:26,Srinagar,Jammu and Kashmir,34.0837,74.7973,258,258,182,7.5,5.7,1.4,5.8,14.45,34,0.79,Clear,clear sky
+2026-10-21 09:52:26,Leh,Ladakh,34.1526,77.5771,258,258,182,7.5,5.7,1.4,5.8,3.24,32,1.02,Clouds,scattered clouds
+2026-10-21 09:52:26,Kavaratti,Lakshadweep,10.5669,72.642,192,192,138,8.2,5.7,0.7,3.4,29.19,75,3.14,Rain,light rain
+2026-10-21 09:52:26,Puducherry,Puducherry,11.9416,79.8083,44,44,30,3.4,4.6,3.9,17.7,28.21,83,2.57,Rain,moderate rain
